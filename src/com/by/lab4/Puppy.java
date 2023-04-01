@@ -10,6 +10,7 @@ public class Puppy extends Dog{
         System.out.println("Little puppy " + getName() + " start to run");
     }
 
+
     @Override
     public void voiceUp(String gavLang) {
         super.voiceUp(gavLang);

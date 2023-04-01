@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Dog extends Animal{
     private String breed;
+     static int l;
     public Dog(String name, int age, String breed) {
         super(name, age);
         this.breed = breed;
@@ -12,7 +13,6 @@ public class Dog extends Animal{
     public void voiceUp(String gavLang){
         System.out.println("Dog with name:" + getName() + " said \""+ gavLang + "\"");
     }
-
 
     public void bite(){
         System.out.println("Dog with name:" + getName() + " bite so hard i screamed");
